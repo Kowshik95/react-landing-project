@@ -1,0 +1,21 @@
+.header {
+  max-width: 1400px;
+  padding: 20px 15px;
+  margin: 0 auto;
+}
+.header-navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.main-nav {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 50%;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: right;
+}

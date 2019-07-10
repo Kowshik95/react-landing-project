@@ -1,5 +1,6 @@
 import React from 'react';
 import TopBanner from '../../component/top-banner/top-banner.component';
+import Header from '../../component/header/header.component';
 
 class HomePage extends React.Component {
   constructor() {
@@ -41,8 +42,8 @@ class HomePage extends React.Component {
     return (
       <div>
         <TopBanner address= { this.state.address } email={this.state.email} phone={this.state.phone} socialIcons = { this.state.socialIcons }/>
+        <Header/>
         <div className="Homepage">
-          <h1>Home page</h1>
         </div>
       </div>
     )

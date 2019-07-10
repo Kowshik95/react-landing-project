@@ -1,0 +1,20 @@
+.logo-container {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 50%;
+  width: 50%;
+}
+.logo-link {
+  display: inline-block;
+  color: #0b0b0b;
+  font-size: 20px;
+  border: 2px solid #0b0b0b;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+.logo {
+  color: #0b0b0b;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0;
+}
