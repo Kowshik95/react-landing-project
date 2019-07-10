@@ -1,0 +1,49 @@
+.social-icon {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  &::before {
+    font-family: "Font Awesome 5 Brands";
+  }
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: #fc721e;
+    border-color: #fc721e;
+    &:before {
+      color: #ffffff;
+    }
+  }
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+  &.facebook {
+    &::before {
+      content: "\f39e";
+    }
+  }
+  &.twitter {
+    &::before {
+      content: "\f099";
+    }
+  }
+  &.gmail {
+    &::before {
+      content: "\f0d5";
+    }
+  }
+  &.linkedin {
+    &::before {
+      content: "\f0e1";
+    }
+  }
+  &.youtube {
+    &::before {
+      content: "\f167";
+    }
+  }
+}
